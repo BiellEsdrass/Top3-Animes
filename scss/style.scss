@@ -1,0 +1,129 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/image/BlueLock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+.main{
+    color: white;
+    width: 45%;
+    padding: 1rem;
+    
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+
+    h1{
+        margin-bottom: 1.4rem;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    .main-btn{
+        margin-top: 1rem;
+        display: flex;
+        gap: 20px;
+
+        .btnAcessar{
+            background-color: #fc2121;
+            color: white;
+            font-weight: bold;
+            font-size: 13px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 3rem;
+            width: 7rem;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px;
+
+            transition: all .5s;
+
+            img{
+                height: 15px;
+            }
+
+            &:hover{
+                background-color: #ad1d1d;
+            }
+        }
+
+        .btnAddList{
+            height: 3rem;
+            width: 9rem;
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 13px;
+            cursor: pointer;
+            padding: 10px;
+
+            background-color: #1c1c1c;
+            color: white;
+            transition: all .9s;
+
+            &:hover{
+                background-color: #ffffff;
+                color: #1c1c1c;
+            }
+        }
+    }
+}
+
+
+.boxAnimes{
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+
+    .animeList{
+        height: 8rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .active{
+        border: 4px solid #ad1d1d7b;
+    }
+}
+
+
+
