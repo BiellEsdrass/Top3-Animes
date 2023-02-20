@@ -1,0 +1,335 @@
+//media para    1350PX
+@media(max-width:1350px){
+    body{
+        background-position: center;
+    }
+
+    .playTrailer{
+        gap: 3px;
+        left: 12%;
+    
+        h1{
+            font-size: 17px;
+        }
+    
+        img{
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    .main{
+        width: 55%;
+        padding: 1rem;
+        transition: all .5s;
+        
+        position: absolute;
+        top: 45%;
+        left: 29%;
+        transform: translate(-50%,-50%);
+    
+        h1{
+            margin-bottom: 1.4rem;
+            font-size: 40px;
+            font-weight: 900;
+        }
+    
+        p{
+            font-size: 18px;
+        }
+        .main-btn{
+            margin-top: 1rem;
+            display: flex;
+            gap: 20px;
+    
+            .btnAcessar{
+                font-size: 13px;
+                height: 3rem;
+                width: 7rem;
+                padding: 10px;
+                gap: 5px;
+
+                img{
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+    
+            .btnAddList{
+                height: 3rem;
+                width: 9rem;
+                font-size: 13px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .boxAnimes{
+        top: 90%;
+        left: 50%;
+        gap: 1rem;
+    
+        .animeList{
+            height: 7rem;
+        }
+    }
+}
+
+
+//media para 850px
+@media(max-width:850px){
+    body{
+        background-position: center;
+    }
+
+    .playTrailer{
+        gap: 0px;
+        left: 15%;
+        gap: 2px;
+    
+        h1{
+            font-size: 16px;
+        }
+    
+        img{
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    .main{
+        width: 70%;
+        padding: 1rem;
+        transition: all .5s;
+        
+        position: absolute;
+        top: 60%;
+        left: 36%;
+        transform: translate(-50%,-50%);
+    
+        h1{
+            margin-bottom: 1.4rem;
+            font-size: 40px;
+            font-weight: 900;
+        }
+    
+        p{
+            font-size: 19px;
+            text-shadow: 0px 0px 10px black;
+        }
+        .main-btn{
+            margin-top: 1rem;
+            display: flex;
+            gap: 20px;
+    
+            .btnAcessar{
+                font-size: 13px;
+                height: 3rem;
+                width: 7rem;
+                padding: 10px;
+                gap: 5px;
+
+                img{
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+    
+            .btnAddList{
+                height: 3rem;
+                width: 9rem;
+                font-size: 13px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .boxAnimes{
+        top: 90%;
+        left: 65%;
+
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+    
+        .animeList{
+            height: 7rem;
+            width: 8rem;
+        }
+    }
+}
+
+
+//media para 630px
+@media(max-width:630px){
+    body{
+        background-position: center;
+    }
+
+    .playTrailer{
+        top: 5%;
+        left: 21%;
+        gap: 2px;
+    
+        h1{
+            font-size: 18px;
+        }
+    
+        img{
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    .main{
+        width: 90%;
+        padding: 1rem;
+        transition: all .5s;
+        
+        position: absolute;
+        top: 70%;
+        left: 45%;
+        transform: translate(-50%,-50%);
+    
+        h1{
+            margin-bottom: 1.4rem;
+            font-size: 40px;
+            font-weight: 900;
+        }
+    
+        p{
+            font-size: 17px;
+            text-shadow: 0px 0px 10px black;
+        }
+        .main-btn{
+            margin-top: 1rem;
+            display: flex;
+            gap: 20px;
+    
+            .btnAcessar{
+                font-size: 13px;
+                height: 3rem;
+                width: 7rem;
+                padding: 10px;
+                gap: 5px;
+
+                img{
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+    
+            .btnAddList{
+                height: 3rem;
+                width: 9rem;
+                font-size: 13px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .boxAnimes{
+        top: 90%;
+        left: 50%;
+
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+    
+        .animeList{
+            height: 7rem;
+            width: 8.5rem;
+        }
+    }
+}
+
+//media para 380px
+@media(max-width:400px){
+    body{
+        background-position: center;
+        background-repeat: repeat-y;
+    }
+
+    .playTrailer{
+        top: 6%;
+        left: 30%;
+        gap: 2px;
+    
+        h1{
+            font-size: 14px;
+        }
+    
+        img{
+            height: 25px;
+            width: 25px;
+        }
+    }
+
+    .main{
+        width: 100%;
+        padding: 1rem;
+        transition: all .5s;
+        
+        position: absolute;
+        top: 70%;
+        left: 48%;
+        transform: translate(-50%,-50%);
+    
+        h1{
+            margin-bottom: 1rem;
+            font-size: 30px;
+            font-weight: 900;
+        }
+    
+        p{
+            font-size: 13px;
+            text-shadow: 0px 0px 10px black;
+        }
+        .main-btn{
+            margin-top: 1rem;
+            display: flex;
+            gap: 20px;
+    
+            .btnAcessar{
+                font-size: 13px;
+                height: 3rem;
+                width: 7rem;
+                padding: 10px;
+                gap: 5px;
+
+                img{
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+    
+            .btnAddList{
+                height: 3rem;
+                width: 9rem;
+                font-size: 13px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .boxAnimes{
+        top: calc(100vh + 1rem);
+        left: 50%;
+        margin-bottom: 2rem;
+
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+    
+        .animeList{
+            height: 4.5rem;
+            width: 5.5rem;
+        }
+    }
+}
