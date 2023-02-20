@@ -23,7 +23,7 @@ body img {
   width: 45%;
   padding: 1rem;
   transition: all 0.5s;
-  position: absolute;
+  position: relative;
   top: 45%;
   left: 25%;
   transform: translate(-50%, -50%);
